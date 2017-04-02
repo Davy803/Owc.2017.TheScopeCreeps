@@ -240,3 +240,10 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+OWC2017/Umbraco_Client/
+OWC2017/Umbraco/
+OWC2017/App_Data/NuGetBackup/
+OWC2017/App_Data/TEMP/
+OWC2017/App_Data/Logs/
+OWC2017/App_Data/cache/
+OWC2017/App_Data/
