@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Owc2017.TheScopeCreeps.Web", "Owc2017.TheScopeCreeps.Web\", "{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_8782"
 		Debug.AspNetCompiler.PhysicalPath = "Owc2017.TheScopeCreeps.Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8782\"
@@ -45,9 +45,7 @@ Global
 		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.live|Any CPU.ActiveCfg = live|Any CPU
 		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.live|Any CPU.Build.0 = live|Any CPU
 		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.development|Any CPU.ActiveCfg = development.xdt|Any CPU
-		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.development|Any CPU.Build.0 = development.xdt|Any CPU
 		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.live|Any CPU.ActiveCfg = live.xdt|Any CPU
-		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.live|Any CPU.Build.0 = live.xdt|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
