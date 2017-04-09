@@ -30,18 +30,24 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Owc2017.TheScopeCreeps.Web"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owc2017.TheScopeCreeps.Core", "Owc2017.TheScopeCreeps.Core\Owc2017.TheScopeCreeps.Core.csproj", "{AD628C14-ECCC-4820-BE9C-3A41A123E15A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owc2017.TheScopeCreeps.Web.Transforms", "Owc2017.TheScopeCreeps.Web\Owc2017.TheScopeCreeps.Web.Transforms.csproj", "{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		development|Any CPU = development|Any CPU
+		live|Any CPU = live|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}.development|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}.live|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.development|Any CPU.ActiveCfg = development|Any CPU
+		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.development|Any CPU.Build.0 = development|Any CPU
+		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.live|Any CPU.ActiveCfg = live|Any CPU
+		{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.live|Any CPU.Build.0 = live|Any CPU
+		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.development|Any CPU.ActiveCfg = development.xdt|Any CPU
+		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.development|Any CPU.Build.0 = development.xdt|Any CPU
+		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.live|Any CPU.ActiveCfg = live.xdt|Any CPU
+		{1BF19F93-6885-47C2-9FEF-7BB5B46CA43D}.live|Any CPU.Build.0 = live.xdt|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
