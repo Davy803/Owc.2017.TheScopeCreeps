@@ -1,0 +1,48 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Owc2017.TheScopeCreeps.Web", "Owc2017.TheScopeCreeps.Web\", "{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,VersionDv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_8782"
+		Debug.AspNetCompiler.PhysicalPath = "Owc2017.TheScopeCreeps.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8782\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_8782"
+		Release.AspNetCompiler.PhysicalPath = "Owc2017.TheScopeCreeps.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8782\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8782"
+	SlnRelativePath = "Owc2017.TheScopeCreeps.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{AD628C14-ECCC-4820-BE9C-3A41A123E15A} = {AD628C14-ECCC-4820-BE9C-3A41A123E15A}
+	EndProjectSection	
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owc2017.TheScopeCreeps.Core", "Owc2017.TheScopeCreeps.Core\Owc2017.TheScopeCreeps.Core.csproj", "{AD628C14-ECCC-4820-BE9C-3A41A123E15A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+	{6DFC8A7A-B7E1-4948-AFAF-FE8B974B8648}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+	{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	{AD628C14-ECCC-4820-BE9C-3A41A123E15A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
