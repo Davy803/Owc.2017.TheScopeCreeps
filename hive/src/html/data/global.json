@@ -1,0 +1,23 @@
+{
+  "title" : "Horizontal Integration View Engine",
+  "socialLinks": [
+    {
+      "id": "twitter",
+      "icon": "uEA03-twitter",
+      "title": "Twitter",
+      "url": "https://twitter.com/"
+    },
+    {
+      "id": "facebook",
+      "icon": "uEA01-facebook",
+      "title": "Facebook",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "id": "instagram",
+      "icon": "uEA02-instagram",
+      "title": "Instagram",
+      "url": "https://instagram.com/"
+    }
+  ]
+}

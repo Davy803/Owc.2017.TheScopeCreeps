@@ -1,0 +1,39 @@
+{% from 'macros/helpers.html' import sprite %}
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{title}}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Static App Icons -->
+    <link rel="shortcut icon" href="/favicon.ico?v=1">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="javascripts/vendor.js"></script>
+    {% block head %}{% endblock %}
+  </head>
+  
+  <body>
+    <div>
+      <header>
+        <div class="logo">
+          <img src="../images/hive-logo.jpg" alt="HIVE" />
+        </div>
+      </header>
+        
+        {% block content %}{% endblock %}
+      
+      <footer>
+        {% include "partials/social-icons-svg.html" %}
+      </footer>   
+    </div>
+
+    <!-- TypeKit Example -->
+    <script src="https://use.typekit.net/knq5crg.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    
+    <script src="javascripts/main.js"></script>
+    {% block javascript %}{% endblock %}
+  </body>
+</html>

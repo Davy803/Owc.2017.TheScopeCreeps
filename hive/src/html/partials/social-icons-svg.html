@@ -1,0 +1,8 @@
+{% from 'macros/helpers.html' import sprite %}
+<p class="social-icons">
+  {% for item in socialLinks %}
+    <a href="{{ item.url }}">
+      {{ sprite(item.icon) }}
+    </a>
+  {% endfor %}
+</p>

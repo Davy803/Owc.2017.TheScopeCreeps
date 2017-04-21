@@ -1,0 +1,138 @@
+{
+  "options": {
+    "dev": {
+      "rootDest": "./project",
+      "settings": ["autoprefixer", "compile", "concat", "sourcemaps", "browsersync"]
+    },
+    "int": {
+      "rootDest": "./package",
+      "settings": []
+    },
+    "prod": {
+      "rootDest": "./project",
+      "settings": ["autoprefixer", "compile", "concat", "htmlmin", "imagemin", "cssnano", "uglify"]
+    }
+  },
+
+  "root": {
+    "src": ["./src", "./node_modules"]
+  },
+
+  "tasks": {
+    "browserSync": {
+      "server": {
+        "baseDir": "project"
+      },
+      "routes": {
+        "src": "routes",
+        "extensions": ["js"]
+      }
+    },
+
+    "static": {
+      "src": "static",
+      "dest": "./",
+      "extensions": ["png", "ico"]
+    },
+
+    "javascript": {
+      "src": {
+        "vendor": [
+          "html5shiv/dist/html5shiv",
+          "jquery/dist/jquery",
+          "bootstrap-sass/assets/javascripts/bootstrap",
+          "slick-carousel/slick/slick",
+          "picturefill/dist/picturefill",
+          "jquery-validation/dist/jquery.validate",
+          "jquery-validation-unobtrusive/jquery.validate.unobtrusive"
+        ],
+        "main": [
+          "components/**/*",
+          "javascripts/main"
+        ]
+      },
+      "dest": "javascripts",
+      "watch": [
+        "javascripts",
+        "components"
+      ],
+      "manifest": "manifest.json",
+      "extensions": ["js"]
+    },
+
+    "css": {
+      "src": {
+        "vendor": [
+          "bootstrap-sass/assets/stylesheets/bootstrap/",
+          "font-awesome/scss/",
+          "slick-carousel/slick/"
+        ],
+        "main": "stylesheets",
+        "components": "components"
+      },
+      "dest": "stylesheets",
+      "watch": [
+        "stylesheets",
+        "components"
+      ],
+      "autoprefixer": {
+        "browsers": ["last 3 version"]
+      },
+      "sass": {
+        "indentedSyntax": false
+      },
+      "manifest": "manifest.json",
+      "extensions": ["sass", "scss", "css"]
+    },
+
+    "html": {
+      "src": [
+        "html",
+        "components"
+      ],
+      "dest": "./",
+      "dataFile": "data/global.json",
+      "htmlmin": {
+        "collapseWhitespace": true
+      },
+      "extensions": ["html", "json"],
+      "excludeFolders": ["components", "layouts", "partials", "macros", "data"]
+    },
+
+    "images": {
+      "src": [
+        "images",
+        "slick-carousel/slick/**"
+      ],
+      "dest": "images",
+      "watch" : "images/**",
+      "extensions": ["jpg", "png", "gif", "svg"]
+    },
+
+    "fonts": {
+      "src": [
+        "fonts",
+        "bootstrap-sass/assets/fonts/bootstrap",
+        "font-awesome/fonts",
+        "slick-carousel/slick/fonts"
+      ],
+      "dest": "fonts",
+      "watch": "fonts",
+      "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+    },
+
+    "iconFont": {
+      "src": "icons",
+      "dest": "fonts",
+      "sassDest": "partials",
+      "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+    },
+
+    "svgSprite": {
+      "src": "icons",
+      "dest": "images",
+      "extensions": ["svg"]
+    }
+
+  }
+}
