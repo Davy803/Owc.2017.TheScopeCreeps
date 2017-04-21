@@ -1,7 +1,7 @@
 {
   "options": {
     "dev": {
-      "rootDest": "../Owc.2017.TheScopeCreeps.Web/project",
+      "rootDest": "../Owc2017.TheScopeCreeps.Web/project",
       "settings": ["autoprefixer", "compile", "concat", "sourcemaps", "browsersync"]
     },
     "int": {
