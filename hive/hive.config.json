@@ -21,7 +21,7 @@
   "tasks": {
     "browserSync": {
       "server": {
-        "baseDir": "project"
+        "baseDir": "../Owc2017.TheScopeCreeps.Web/project"
       },
       "routes": {
         "src": "routes",

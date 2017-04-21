@@ -41,7 +41,7 @@ exports = module.exports = cleanTask;
  */
 
 function cleanTask(cb) {
-  del(config.root.originalRoot).then(function(paths) {
+  del(config.root.originalRoot, {force: true}).then(function(paths) {
     cb();
   });
 };
