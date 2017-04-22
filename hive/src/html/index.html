@@ -1080,20 +1080,15 @@
     </div>
   </div>
 
-<div class="container article-preview">
+<div class="container article-list">
   <h1>Article</h1>
-    <div class="row">
-      {% include "../components/media/media.html" %}
-    </div>
-    <hr>
-    <div class="row">
-      {% include "../components/media/media.html" %}
-    </div>
-    <hr>
-    <div class="row">
-      {% include "../components/media/media.html" %}
-    </div>
-    <hr>
+
+      {% include "../components/article-preview/article-preview.html" %}
+
+      {% include "../components/article-preview/article-preview.html" %}
+
+      {% include "../components/article-preview/article-preview.html" %}
+
 </div>
 {% endblock %}
 {% block javascript %}{% endblock %}

@@ -13,7 +13,8 @@
  */
 
 @import "partials/variables";
-@import "mixins/index";
+@import "mixins/fonts.scss";
+@import "mixins/media-q.scss";
 
 /*
  *  Layout
@@ -46,4 +47,5 @@
  */
 
 @import "../components/cards/event-card/event-card";
-@import "../components/media/_media.scss";
+@import "../components/article-preview/_article-preview.scss";
+@import "mathias.scss"
