@@ -13,7 +13,7 @@
  */
 
 @import "partials/variables";
-@import "mixins/index";
+@import "mixins/media-q";
 
 /*
  *  Layout
@@ -25,6 +25,7 @@
 // @import "partials/header";
 // @import "partials/footer";
 @import "partials/ie";
+@import "partials/helper";
 
 /*
  *  Elements
@@ -44,6 +45,6 @@
  *  Components
  *
  */
-
+@import "../components/footer/footer";
 @import "../components/cards/event-card/event-card";
 @import "../components/media/_media.scss";
