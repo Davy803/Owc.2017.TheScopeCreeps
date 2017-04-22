@@ -1,11 +1,11 @@
 //
-//  Font Icons 
+//  Font Icons
 //  Uncomment the font icon packages to add to your project
 //
 
 // @import "glyphicons";
-// @import "font-awesome";
-@import "_icons"; 
+@import "font-awesome";
+@import "_icons";
 
 //
 //  Web Fonts
@@ -14,3 +14,10 @@
 
 @include font-face(OpenSans, "../fonts/OpenSans-Regular-webfont");
 @include font-face(OpenSans, "../fonts/OpenSans-Bold-webfont", bold);
+
+@include font-face(Hind, "../../fonts/hind/Hind-Light", 100, normal);
+@include font-face(Hind, "../../fonts/hind/Hind-Medium", 300, normal);
+@include font-face(Hind, "../../fonts/hind/Hind-Regular", 500, normal);
+@include font-face(Hind, "../../fonts/hind/Hind-SemiBold", 700, bold );
+@include font-face(Hind, "../../fonts/hind/Hind-Bold", 900, bold);
+
