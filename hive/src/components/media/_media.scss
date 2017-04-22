@@ -1,0 +1,64 @@
+
+.media {
+
+}
+.media img {
+    width: 100%;
+}
+
+.media .media-content > * {
+    margin-top: 0;
+}
+
+.media ul {
+    padding: 0;
+    margin: 18px 0;
+}
+
+//Inline Divides
+//------------------------
+    .is-inline {
+
+    }
+    
+    .is-inline > * {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .is-inline > * > * {
+        color: currentColor;
+    }
+    
+    .is-inline > * + * {
+        margin-left: 24px;
+    }
+    
+    .is-inline > * + *:before {
+        content: "";
+        height: 14px;
+        width: 2px;
+        margin-top: -7px;
+        position: absolute;
+        top: 50%;
+        left: -12px;
+        background-color: currentColor;
+    }
+    
+    .no-divide:before {
+        width: 0;
+    }
+    
+   /* @include small {
+        .is-inline > * {
+            display: block;
+        }
+        .is-inline > * + * {
+            margin-left: 0;
+        }
+        .is-inline > * + *:before {
+            margin: 0;
+            width: 0;
+            position: relative;
+        }
+    }*/

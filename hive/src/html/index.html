@@ -923,7 +923,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">Panel heading</div>
                 <div class="panel-body">
-                  Panel content
+                  Panel content suck it
                 </div>
               </div>
               <div class="panel panel-default">
@@ -1079,6 +1079,21 @@
       </div>
     </div>
   </div>
-{% endblock %}
 
+<div class="container article-preview">
+  <h1>Article</h1>
+    <div class="row">
+      {% include "../components/media/media.html" %}
+    </div>
+    <hr>
+    <div class="row">
+      {% include "../components/media/media.html" %}
+    </div>
+    <hr>
+    <div class="row">
+      {% include "../components/media/media.html" %}
+    </div>
+    <hr>
+</div>
+{% endblock %}
 {% block javascript %}{% endblock %}
