@@ -1,0 +1,30 @@
+@mixin large {
+  @media (min-width: $screen-lg-min) {
+    @content;
+  }
+}
+@mixin large-medium {
+  @media (max-width: $screen-lg-min) and (min-width: $screen-md-min + 1) {
+    @content;
+  }
+}
+@mixin large-small {
+  @media screen and (min-width: $screen-md-min) {
+    @content;
+  }
+}
+@mixin medium {
+  @media (max-width: $screen-md-min) and (min-width: $screen-sm-min) {
+    @content;
+  }
+}
+@mixin small {
+  @media screen and (max-width: $screen-sm-min) {
+    @content;
+  }
+}
+@mixin smallest {
+  @media (max-width: $screen-xs-min) {
+    @content;
+  }
+}

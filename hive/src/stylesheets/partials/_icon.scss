@@ -1,0 +1,29 @@
+.icon {
+  font-size: 32px;
+  margin: 4px;
+  &.icon-instagram {
+    color: $dark-grey;
+  }
+  &.icon-facebook {
+    color: $facebookBlue;
+  }
+  &.icon-twitter {
+    color: $twitterBlue;
+  }
+}
+
+.sprite {
+  display: inline-block;
+  fill: currentColor;
+  margin: 8px;
+  width: 32px;
+  &.sprite-instagram {
+    fill: $dark-grey;
+  }
+  &.sprite-facebook {
+    fill: $facebookBlue;
+  }
+  &.sprite-twitter {
+    fill: $twitterBlue;
+  }
+}
