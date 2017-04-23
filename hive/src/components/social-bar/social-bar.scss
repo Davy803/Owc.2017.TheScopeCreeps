@@ -1,0 +1,45 @@
+.social-bar {
+    padding-top: 3rem;
+    background-color: $brand-tertiary;
+    color: white;
+     .social-bar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+  .social-bar {
+    text-align: center;
+    font-size: 2em;
+    padding: 3rem 0 .2em 0;
+    background-color: $brand-tertiary;
+    color: white;
+  }
+   .social-bar_text {
+     padding-top: 1rem;
+   }
+  .social-bar li {
+    display: inline;
+    font-size: 1.5em;
+    padding: 0 .5em;
+  }
+  .social-bar li a {
+    color: white;
+  }
+@include small {
+  .social-bar_text {
+    padding-top: 0;
+  font-size: 26px;
+}
+}
+@include large {
+  .social-bar .footer-text {
+    text-align: right;
+    font-size: 26px;
+    padding-top: 16px;
+  }
+  .social-bar ul {
+    text-align: left;
+  }
+}
+

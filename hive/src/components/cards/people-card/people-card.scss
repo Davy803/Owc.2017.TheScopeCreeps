@@ -9,26 +9,25 @@
   .panel-head-shot {
     width: 100%;
     margin-bottom: 30px;
+    max-width: 280px;
   }
   .btn {
     margin-top: 15px;
   }
   [href*="mailto"] {
     color: $brand-accent;
+    word-wrap: break-word;
   }
+  .panel-body {
+  padding: 0;
 }
-.people-card--list .row {
-    display:flex;
-    align-items: stretch;
 }
 
-.people-card--list .row > * {
-    display: flex;
-}
 
 .panel-primary {
     border-color: $brand-secondary;
 }
+
 
 .panel-body > * {
     margin-top: 0;
@@ -37,4 +36,10 @@
 .panel-primary > .panel-heading{
     background-color: $brand-secondary;
     border-color: $brand-secondary;
+}
+
+@include small {
+  .people-card--list .row > * {
+    display: block;
+}
 }

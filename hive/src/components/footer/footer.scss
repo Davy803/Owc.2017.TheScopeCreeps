@@ -1,10 +1,6 @@
 footer {
   background-color: $gray-lighter;
-  padding: 0 0 1em 0;
-}
-
-footer .container {
-    padding-top: 1em;
+  padding: 1em 0;
 }
 
 .footer-logo {
@@ -19,37 +15,5 @@ footer .container {
   .footer-logo {
     display: block;
     margin: 0 auto;
-  }
-}
-
-.sub-footer {
-    text-align: center;
-    font-size:3em;
-    padding: .2em 0;
-    background-color: $brand-tertiary;
-    color: white;
-}
-
-.sub-footer ul {
-    list-style: none;
-    padding-left: 0;
-}
-.sub-footer li {
-    display: inline;
-    font-size: 1em;
-    padding: 0 .5em;
-}
-.sub-footer li a {
-        color: white;
-}
-
-@include large {
-  .sub-footer .footer-text {
-    text-align: right;
-    font-size: 26px;
-    padding-top: 16px;  
-  }
-  .sub-footer ul {
-    text-align: left;
   }
 }
