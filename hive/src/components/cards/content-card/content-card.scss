@@ -34,8 +34,9 @@
 .panel-grey {
     border-color: $grey;
     width: 100%;
-    h2 {
-      color: $brand-secondary;
+    h2,
+    i {
+      color: $brand-tertiary;
     }
     .btn {
       background-color: $brand-tertiary;
