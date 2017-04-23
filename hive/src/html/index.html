@@ -2,7 +2,7 @@
 {# include "../components/example/example.html" #}
 
 {% block content %}
-  
+
 {% include "../components/hero-image/hero-image.html" %}
 
 <div>
@@ -17,8 +17,23 @@
       {% include "../components/article-preview/article-preview.html" %}
 
 </div>
-<div>
-  {% include "../components/cards/event-card/event-card.html" %}
+<div class="event-card--list container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3">
+      {% include "../components/cards/event-card/event-card.html" %}
+    </div>
+    <div class="col-xs-12 col-md-3">
+      {% include "../components/cards/event-card/event-card.html" %}
+    </div>
+    <div class="col-xs-12 col-md-3">
+      {% include "../components/cards/event-card/event-card.html" %}
+    </div>
+    <div class="col-xs-12 col-md-3">
+      {% include "../components/cards/event-card/event-card.html" %}
+    </div>
+  </div>
+
 </div>
+
 {% endblock %}
 {% block javascript %}{% endblock %}
