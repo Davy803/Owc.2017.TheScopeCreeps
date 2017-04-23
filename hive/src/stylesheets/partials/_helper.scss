@@ -1,5 +1,10 @@
-.vertical-center-text {
-  display: flex;
-  height: 100%;
-  align-items: center;
+.txt-secondary {
+  color: $brand-secondary;
+}
+
+@include small {
+  .xs-gutter {
+      margin-left: 15px;
+  margin-right: 15px;
+  }
 }

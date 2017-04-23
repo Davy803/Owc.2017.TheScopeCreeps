@@ -7,6 +7,7 @@
 @import "slick.scss";
 @import "overrides/slick-carousel/slick-theme";
 
+
 /*
  *  Variables and mixins
  *
@@ -34,7 +35,7 @@
  */
 
 @import "partials/icon";
-
+@import "partials/fonts";
 
 /*
  *  Fonts
@@ -46,6 +47,7 @@
  *  Components
  *
  */
+@import "../components/nav/main-nav";
 @import "../components/footer/footer";
 @import "../components/cards/event-card/event-card";
 @import "../components/article-preview/_article-preview.scss";

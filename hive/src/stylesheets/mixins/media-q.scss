@@ -18,6 +18,11 @@
     @content;
   }
 }
+@mixin small-medium {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    @content;
+  }
+}
 @mixin small {
   @media screen and (max-width: $screen-sm-min) {
     @content;

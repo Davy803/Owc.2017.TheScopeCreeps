@@ -1,0 +1,81 @@
+.navbar-default {
+  background-color: white;
+  border-bottom: 0;
+}
+.nav.navbar-nav {
+  font-weight: 900;
+  li.active > a {
+    background: white;
+    color: $brand-secondary;
+  }
+  .btn {
+    color: white;
+  }
+}
+.navbar-brand {
+  height: auto;
+}
+.brand-img {
+  max-width: 82px;
+}
+.navbar-collapse {
+      padding-top: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $brand-secondary;
+}
+.navbar-default .navbar-toggle {
+  margin-top: 40px;
+  .icon-bar {
+    width: 30px;
+    height: 3px;
+  }
+  &:focus {
+    background-color: $brand-secondary;
+  }
+}
+.navbar-header {
+  position: relative;
+}
+@include small-medium {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 100%;
+    margin: 0 auto;
+    .brand-img {
+      margin: 0 auto;
+    }
+  }
+  .nav.navbar-nav .btn {
+    display: none;
+  }
+}
+@include small {
+    .navbar-default .navbar-collapse {
+  border-top: 5px solid $brand-secondary;
+}
+  .btn {
+    padding: 0 15px;
+  }
+ [aria-expanded="true"].navbar-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 12px;
+    display: block;
+    width: 70px;
+    height: inherit;
+    background-color:$brand-secondary;
+  .icon-bar {
+    background-color: white;
+  }
+ }
+ .navbar-default .navbar-toggle {
+       border-color: transparent;
+ }
+}
