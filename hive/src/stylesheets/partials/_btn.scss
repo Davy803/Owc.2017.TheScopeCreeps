@@ -1,7 +1,16 @@
 .btn-secondary  {
-  background-color: $branding-secondary;
+  background-color: $brand-secondary;
 }
 
 .btn-terterary {
   background-color: $brand-tertiary;
+}
+
+.btn-secondary--inverse {
+    border-color: $brand-secondary;
+}
+
+.btn-secondary--inverse:hover {
+    background-color: $brand-secondary;
+    color: white;
 }

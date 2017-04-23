@@ -1,0 +1,19 @@
+.is-block {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.panel-primary {
+    border-color: $brand-secondary;
+}
+
+.panel-body > * {
+    margin-top: 0;
+}
+
+.panel-primary > .panel-heading{
+    background-color: $brand-secondary;
+    border-color: $brand-secondary;
+}
