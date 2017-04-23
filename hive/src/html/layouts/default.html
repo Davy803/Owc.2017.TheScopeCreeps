@@ -13,7 +13,7 @@
     <script src="javascripts/vendor.js"></script>
     {% block head %}{% endblock %}
   </head>
-  
+
   <body>
     <div>
       <header>
@@ -21,18 +21,18 @@
           <img src="../images/hive-logo.jpg" alt="HIVE" />
         </div>
       </header>
-        
+
         {% block content %}{% endblock %}
-      
+
       <footer>
-        {% include "partials/social-icons-svg.html" %}
-      </footer>   
+        {% include "../../components/footer/footer.html" %}
+      </footer>
     </div>
 
     <!-- TypeKit Example -->
     <script src="https://use.typekit.net/knq5crg.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    
+
     <script src="javascripts/main.js"></script>
     {% block javascript %}{% endblock %}
   </body>
