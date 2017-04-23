@@ -44,3 +44,10 @@
 .jumbotron-content--container * {
     color: white;
 }
+
+@include small {
+  .jumbotron-content--container {
+        width: 100%;
+    padding: 0 15px;
+  }
+}
