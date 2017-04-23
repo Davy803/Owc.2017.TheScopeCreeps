@@ -5,21 +5,32 @@
     padding-left: 0;
 }
 
-.event-card--list .row {
+
+.content-card--list .row {
     display:flex;
     align-items: stretch;
 }
 
-.event-card--list .row > * {
+.content-card--list .row > * {
     display: flex;
 }
 
 .panel-primary {
-    border-color: $brand-secondary;
+    border-color: $brand-primary;
+    width: 100%;
+}
+
+.panel-grey {
+    border-color: $grey;
+    width: 100%;
 }
 
 .panel-body > * {
     margin-top: 0;
+}
+
+.panel-body .btn {
+    margin-bottom: 18px;
 }
 
 .panel-primary > .panel-heading{

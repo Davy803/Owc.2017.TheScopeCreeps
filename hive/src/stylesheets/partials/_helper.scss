@@ -3,3 +3,21 @@
   height: 100%;
   align-items: center;
 }
+
+.bg-primary {
+    background-color: $brand-primary;
+    color: white;
+}
+
+.bg-primary * {
+    color: white;
+}
+
+.bg-secondary {
+    background-color: $brand-secondary;
+    color: white;
+}
+
+.bg-secondary * {
+    color: white;
+}

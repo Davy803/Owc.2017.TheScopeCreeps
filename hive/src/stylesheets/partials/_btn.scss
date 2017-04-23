@@ -14,3 +14,14 @@
     background-color: $brand-secondary;
     color: white;
 }
+
+.btn-white {
+    background-color: transparent;
+    border-color: white;
+}
+
+
+.btn-grey {
+    background-color: transparent;
+    border-color: $grey;
+}
