@@ -1,7 +1,9 @@
 .txt-secondary {
   color: $brand-secondary;
 }
-
+.txt-secondary {
+  color: $brand-secondary;
+}
 @include small {
   .xs-gutter {
       margin-left: 15px;

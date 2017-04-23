@@ -49,9 +49,11 @@
  *
  */
 @import "../components/nav/main-nav";
+@import "../components/form/form";
 @import "../components/footer/footer";
 @import "../components/cards/event-card/event-card";
 @import "../components/cards/content-card/content-card";
+@import "../components/cards/people-card/people-card";
 @import "../components/hero-image/hero-image";
 @import "../components/article-preview/_article-preview.scss";
 @import "mathias.scss"

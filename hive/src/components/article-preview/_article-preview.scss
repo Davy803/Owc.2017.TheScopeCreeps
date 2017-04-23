@@ -31,7 +31,7 @@
     margin: 18px 0;
 }
 
-// News Article 
+// News Article
 .news-article .article-preview--image img{
     max-height: 400px;
     object-fit: cover;
@@ -39,23 +39,23 @@
 
 //Inline Divides
 //------------------------
-    .is-inline {
-
+    .is-inline a{
+      color: $brand-accent;
     }
-    
+
     .is-inline > * {
         display: inline-block;
         position: relative;
     }
-    
+
     .is-inline > * > * {
         color: currentColor;
     }
-    
+
     .is-inline > * + * {
         margin-left: 24px;
     }
-    
+
     .is-inline > * + *:before {
         content: "";
         height: 14px;
@@ -66,11 +66,11 @@
         left: -12px;
         background-color: currentColor;
     }
-    
+
     .no-divide:before {
         width: 0;
     }
-    
+
    @include small {
         .is-inline > * {
             display: block;

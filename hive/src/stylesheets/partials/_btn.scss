@@ -1,32 +1,46 @@
-.btn-secondary  {
+.btn-secondary {
   background-color: $brand-secondary;
 }
 
-.btn-terterary {
+.btn-tertiary {
   background-color: $brand-tertiary;
+  color: white;
 }
 
 .btn-secondary--inverse {
-    border-color: $brand-secondary;
+  border-color: $brand-secondary;
+  color: currentColor;
+  &:hover {
+    background-color: $brand-secondary;
+    color: white;
+  }
+}
+
+.btn-tertiary--inverse {
+  border-color: $brand-tertiary;
+  color: currentColor;
+  &:hover {
+    background-color: $brand-tertiary;
+    color: white;
+  }
 }
 
 .btn-secondary--inverse:hover {
-    background-color: $brand-secondary;
-    color: white;
+  background-color: $brand-secondary;
+  color: white;
 }
 
 .btn-white {
-    background-color: transparent;
-    border-color: white;
-        &:hover {
-      background-color: white;
-    }
+  background-color: transparent;
+  border-color: white;
+  &:hover {
+    background-color: white;
+  }
 }
 
-
 .btn-grey {
-    background-color: transparent;
-    border-color: $grey;
+  background-color: transparent;
+  border-color: $grey;
 }
 
 .btn {
@@ -35,9 +49,10 @@
   padding: 13px;
   span {
     position: relative;
-      top: 3px;
+    top: 3px;
   }
   &:hover {
-        transition: all .3s
+    transition: all .3s
   }
 }
+
