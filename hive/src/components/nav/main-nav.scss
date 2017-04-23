@@ -1,6 +1,42 @@
 .navbar-default {
   background-color: white;
   border-bottom: 0;
+  .navbar-nav .active a {
+    background-color: transparent !important;
+  }
+}
+
+.navbar-nav li a {
+  &:hover {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    transition: .3s;
+  }
+}
+
+.navbar-nav li a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1.25px;
+  width: 0;
+  background: transparent;
+  transition: width .25s ease, background-color .25s ease;
+}
+
+.navbar-nav li a:hover:after {
+  background-color: #4d4e53;
+  width: 100%;
+}
+.dropdown.open .dropdown-menu {
+  border-top: 5px solid $brand-secondary;
+}
+.dropdown-toggle .fa {
+  font-weight: 900;
+}
+.navbar-right .dropdown-menu {
+      right: inherit;
 }
 .nav.navbar-nav {
   font-weight: 900;
@@ -10,33 +46,55 @@
   }
   .btn {
     color: white;
+    top: -5px;
+    &:hover:after {
+        width: 0;
+    }
   }
 }
+
 .navbar-brand {
   height: auto;
 }
+
 .brand-img {
   max-width: 82px;
 }
+
 .navbar-collapse {
-      padding-top: 30px;
+  padding-top: 30px;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
   background-color: $brand-secondary;
 }
+
 .navbar-default .navbar-toggle {
   margin-top: 40px;
   .icon-bar {
     width: 30px;
     height: 3px;
   }
-  &:focus {
+  &:focus, &:hover {
     background-color: $brand-secondary;
   }
+  &:hover {
+    .icon-bar {
+      color: white;
+    }
+  }
+}
+.navbar-default .navbar-toggle.collapsed {
+  margin-right: 6px;
+  &:hover {
+    background-color: transparent;
+  }
+
 }
 .navbar-header {
   position: relative;
 }
+
 @include small-medium {
   .navbar-header {
     width: 100%;
@@ -52,14 +110,15 @@
     display: none;
   }
 }
+
 @include small {
-    .navbar-default .navbar-collapse {
-  border-top: 5px solid $brand-secondary;
-}
+  .navbar-default .navbar-collapse {
+    border-top: 5px solid $brand-secondary;
+  }
   .btn {
     padding: 0 15px;
   }
- [aria-expanded="true"].navbar-toggle {
+  [aria-expanded="true"].navbar-toggle {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -70,12 +129,19 @@
     display: block;
     width: 70px;
     height: inherit;
-    background-color:$brand-secondary;
-  .icon-bar {
-    background-color: white;
+    background-color: $brand-secondary;
+    .icon-bar {
+      background-color: white;
+    }
   }
- }
- .navbar-default .navbar-toggle {
-       border-color: transparent;
- }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .nav.navbar-nav.navbar-right {
+    padding: 0 15px;
+  }
+  .navbar-nav li a:hover:after {
+  width: 0;
 }
+}
+

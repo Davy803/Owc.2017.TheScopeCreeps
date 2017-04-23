@@ -12,8 +12,8 @@
 //  Make use the 'font-face' mixin when adding new fonts
 //
 
-@include font-face(OpenSans, "../fonts/OpenSans-Regular-webfont");
-@include font-face(OpenSans, "../fonts/OpenSans-Bold-webfont", bold);
+@include font-face(OpenSans, "../../fonts/OpenSans-Regular-webfont");
+@include font-face(OpenSans, "../../fonts/OpenSans-Bold-webfont", bold);
 
 @include font-face(Hind, "../../fonts/hind/Hind-Light", 100, normal);
 @include font-face(Hind, "../../fonts/hind/Hind-Medium", 300, normal);

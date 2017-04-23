@@ -25,3 +25,13 @@
     background-color: transparent;
     border-color: $grey;
 }
+
+.btn {
+  top: 3px;
+  position: relative;
+  span {
+    top: 3px;
+    position: relative;
+  }
+}
+
