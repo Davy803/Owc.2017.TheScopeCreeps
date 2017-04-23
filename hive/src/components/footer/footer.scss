@@ -1,6 +1,10 @@
 footer {
   background-color: $gray-lighter;
-  padding: 35px 0;
+  padding: 0 0 1em 0;
+}
+
+footer .container {
+    padding-top: 1em;
 }
 
 .footer-logo {
@@ -16,4 +20,21 @@ footer {
     display: block;
     margin: 0 auto;
   }
+}
+
+.sub-footer {
+    text-align: center;
+    font-size:3em;
+    padding: .2em 0;
+    background-color: $brand-tertiary;
+}
+.sub-footer ul {
+    list-style: none;
+}
+.sub-footer li {
+    display: inline;
+    padding: 0 .5em;
+}
+.sub-footer li a {
+        color: white;
 }

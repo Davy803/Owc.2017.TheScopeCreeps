@@ -31,9 +31,22 @@
 
 .panel-body .btn {
     margin-bottom: 18px;
+    padding: 18px;
 }
 
 .panel-primary > .panel-heading{
     background-color: $brand-secondary;
     border-color: $brand-secondary;
+}
+
+@include small {
+  .content-card--list .row {
+    display:block;
+    align-items: stretch;
+}
+
+.content-card--list .row > * {
+    display: block;
+}
+
 }
