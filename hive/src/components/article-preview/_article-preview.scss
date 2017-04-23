@@ -20,6 +20,13 @@
 }
 .article-preview--image img {
     width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+.article-preview--image a {
+    display: block;
+    height: 300px;
 }
 
 .article-preview .article-preview-content > * {
