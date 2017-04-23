@@ -57,3 +57,7 @@ p {
 .form-control {
   padding: 24px 12px;
 }
+body {
+    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
