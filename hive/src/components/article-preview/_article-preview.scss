@@ -15,11 +15,23 @@
     padding-bottom: 18px;
     margin-bottom: 18px;
 }
+.article-preview {
+    min-height: 350px;
+}
 .article-preview--image {
     display: block;
 }
+
 .article-preview--image img {
     width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+.article-preview--image > a {
+    display: block;
+    height: 300px;
+    overflow: hidden;
 }
 
 .article-preview .article-preview-content > * {
