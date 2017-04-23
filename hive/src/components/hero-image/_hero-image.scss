@@ -3,6 +3,7 @@
     text-align: center;
     background-color: rgba(0,0,0,.3);
     color: white;
+    min-height:400px;
 }
 
 .jumbotron:after {
@@ -31,8 +32,14 @@
 }
 
 .jumbotron-content--container {
-    position: relative;
+
     z-index: 101;
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
 }
 .jumbotron-content--container * {
     color: white;
