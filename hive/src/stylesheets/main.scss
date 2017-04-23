@@ -14,7 +14,6 @@
  */
 
 @import "partials/variables";
-@import "mixins/fonts";
 @import "mixins/media-q";
 
 /*
@@ -98,4 +97,3 @@
 @import "../components/cards/people-card/people-card";
 @import "../components/hero-image/hero-image";
 @import "../components/article-preview/_article-preview.scss";
-@import "mathias.scss"
