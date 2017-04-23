@@ -14,15 +14,15 @@
     display: flex;
 }
 
-.event-card--list .panel-primary {
+.panel-primary {
     border-color: $brand-secondary;
 }
 
-.event-card--list .panel-body > * {
+.panel-body > * {
     margin-top: 0;
 }
 
-.event-card--list .panel-primary > .panel-heading{
+.panel-primary > .panel-heading{
     background-color: $brand-secondary;
     border-color: $brand-secondary;
 }
