@@ -26,3 +26,15 @@
     background-color: $brand-secondary;
     border-color: $brand-secondary;
 }
+
+@include medium {
+  .event-card--list .row {
+    display:block;
+    align-items: stretch;
+}
+
+.event-card--list > * {
+    display: block;
+}
+
+}
