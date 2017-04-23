@@ -1,0 +1,28 @@
+{% extends 'layouts/default.html' %}
+{# include "../components/example/example.html" #}
+
+{% block content %}
+<div class="news-article container">
+  <div class="col-xs-12 col-md-9">
+    <div class="article-preview--image">
+          <img src="../images/two-caucasian-women.jpg" alt="alt text goes here"/>
+    </div>
+    <h1>News Article Header</h1>
+    <h2>News Article Sub Headline</h2>
+    <h3> Author: <a href="#">Mathias Rechtzigel</a></h3>
+    <hr>
+    <div class="rich-text-editor">
+      <h1>Rich Text - Heading 1</h1>
+      <h2>Rich Text - Heading 2</h2>
+      <h3>Rich Text - Heading 3</h3>
+      <h4>Rich Text - Heading 4</h4>
+      <h5>Rich Text - Heading 5</h5>
+      <p>Rich Text Description</p>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-3">
+    space for card space for card space for card space for card space for card space for card space for card space for card space for card
+  </div>
+</div>
+{% endblock %}
+{% block javascript %}{% endblock %}
