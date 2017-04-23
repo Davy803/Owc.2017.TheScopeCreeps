@@ -76,3 +76,9 @@ img {
 .page-title {
     color:$brand-secondary;
 }
+
+@include smallest {
+    h1 {
+        font-size: 30px;
+    }
+}
