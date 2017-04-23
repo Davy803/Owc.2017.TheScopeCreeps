@@ -16,7 +16,6 @@
 }
 
 .panel-primary {
-    border-color: $brand-primary;
     width: 100%;
 }
 
@@ -31,9 +30,10 @@
 
 .panel-body .btn {
     margin-bottom: 18px;
-    padding: 18px;
 }
-
+.panel-primary.bg-secondary {
+    border-color: $brand-secondary;
+}
 .panel-primary > .panel-heading{
     background-color: $brand-secondary;
     border-color: $brand-secondary;
