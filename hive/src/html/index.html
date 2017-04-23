@@ -1079,7 +1079,7 @@
       </div>
     </div>
   </div>
-
+{% include "../components/hero-image/hero-image.html" %}
 <div class="container article-list">
   <h1>Article</h1>
 
@@ -1089,6 +1089,14 @@
 
       {% include "../components/article-preview/article-preview.html" %}
 
+</div>
+
+<div>
+  {% include "../components/cards/event-card/event-card.html" %}
+</div>
+
+<div>
+  {% include "../components/cards/content-card/content-card.html" %}
 </div>
 {% endblock %}
 {% block javascript %}{% endblock %}

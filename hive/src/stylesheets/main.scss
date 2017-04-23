@@ -28,6 +28,7 @@
 // @import "partials/footer";
 @import "partials/ie";
 @import "partials/helper";
+@import "partials/btn";
 
 /*
  *  Elements
@@ -50,5 +51,7 @@
 @import "../components/nav/main-nav";
 @import "../components/footer/footer";
 @import "../components/cards/event-card/event-card";
+@import "../components/cards/content-card/content-card";
+@import "../components/hero-image/hero-image";
 @import "../components/article-preview/_article-preview.scss";
 @import "mathias.scss"
